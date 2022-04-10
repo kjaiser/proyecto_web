@@ -1,0 +1,87 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+#general{
+    background: red;
+    height: 1000px;
+    width: 100%;
+}
+
+#encabezado{
+    background: blue;
+    height: 300px;
+    width: auto;
+}
+
+#contenido{
+    display: block;
+    background: black;
+    height: 630px;
+    width: auto;
+}
+
+#cursos{
+    display: block;
+    float: left;
+    background: yellowgreen;
+    height: 600px;
+    width: 70%;
+}
+
+#curso1{
+    display: block;
+    float: right;
+    background:gray;
+    width: auto;
+}
+
+#curso1 img{
+    width: 40%;
+}
+
+#curso1 article{
+    display: block;
+    float: right;
+    background:brown;
+    width: 40%;
+}
+
+#curso2{
+    display: block;
+    float: right;
+    background:gray;
+    width: auto;
+}
+
+#curso2 img{
+    width: 40%;
+}
+
+#curso2 article{
+    display: block;
+    float: left;
+    background:brown;
+    width: 40%;
+}
+#aside{
+    display:block;
+    float: right;
+    background: purple;
+    height: 600px;
+    width: 20%;
+}
+
+
+
+#pie{
+    background: yellow;
+    height: 400px;
+    width: 100%;
+}
