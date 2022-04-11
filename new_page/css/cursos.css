@@ -121,29 +121,3 @@ a{
     width: 20%;
     margin-right: 30px;
 }
-
-#info{
-    display: block;
-    background: #7472727c;
-    margin-top: 20px;
-    padding-top: 20px;
-}
-
-#datos{
-    display: block;
-    margin-left: 200px;
-    margin-bottom: 20px;
-}
-#datos li{
-    list-style: none;
-    padding: 5px;
-    margin: 10px;
-}
-
-#pie{
-    display: block;
-    margin-top: 50px;
-    background: rgba(0, 0, 0, 0.234);
-    height: 50px;
-    width: 100%;
-}
