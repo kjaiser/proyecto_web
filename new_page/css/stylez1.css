@@ -15,53 +15,6 @@ a{
     color: white;
 }
 
-#encabezado{
-    background-color: rgb(255, 255, 255);
-    width: auto;
-    height: 300px;
-}
-#logo{
-    width: 300px;
-    height:300px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.imglogo{
-    width: 100%;
-    height: 100%;
-}
-#nav_bar{
-    background-color: #333;
-    width: 100%;
-    list-style: none;
-    display: block;
-    float: left;
-}
-#nav_bar ul{
-    display: block;
-    float: left;
-}
-#nav_bar ul li{
-    text-align: center;
-    width: 100px;
-    display: inline-block;
-    padding: 20px;
-}
-#buscador{
-    display: block;
-    float: right;
-    margin-right: 50px;
-}
-
-#buscando{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 99px;
-}
-#buscador label{
-    color: white;
-    font-size: 15px;
-}
 main{
    background-color: rgb(23, 206, 38);
     width: auto;
