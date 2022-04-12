@@ -1,87 +1,123 @@
 *{
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 body{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background: #2FA4FF;
+ 
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
 #general{
-    background: red;
-    height: 1000px;
     width: 100%;
+    background-color: white;
 }
 
-#encabezado{
-    background: blue;
-    height: 300px;
-    width: auto;
-}
+/* encabezado en otro css */
 
 #contenido{
     display: block;
-    background: black;
-    height: 630px;
     width: auto;
+    margin-top: 20px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+    display: block;
 }
 
 #cursos{
+    margin-left: 30px;
     display: block;
     float: left;
-    background: yellowgreen;
-    height: 600px;
+    /* background: yellowgreen; */
     width: 70%;
 }
 
 #curso1{
-    display: block;
-    float: right;
-    background:gray;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: solid 2px #ccc;
+    border-radius: 50px;
+    background: white;
     width: auto;
+    height: 250px;
 }
 
 #curso1 img{
-    width: 40%;
+    display: block;
+    float: left;
+    width: 300px;
+    height: 200px;
 }
 
-#curso1 article{
+#description1{
     display: block;
-    float: right;
-    background:brown;
-    width: 40%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    /* background:brown; */
+    width: 250px;
+    text-align: justify;
 }
 
-#curso2{
-    display: block;
-    float: right;
-    background:gray;
+#curso2{ 
+    margin-bottom: 20px;
+    padding: 20px;
+    border: solid 2px #ccc;
+    border-radius: 50px;
+    background:white;
     width: auto;
+    height: 250px;
 }
 
 #curso2 img{
-    width: 40%;
+    display: block;
+    float: right;
+    width: 300px;
+    height: 200px;
 }
 
-#curso2 article{
+#description2{
     display: block;
     float: left;
-    background:brown;
-    width: 40%;
+    margin-top: 10px;
+    margin-left: 50px;
+    /* background:brown; */
+    width: 250px;
+    text-align: justify;
+
+}
+.articulo h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.articulo span{
+    font-size: 15px;
+    color: #333;
+}
+
+.boton{
+     padding: 10px;
+     width: 60px;
+     margin-left: 10px;
+     margin-top: 10px;
+     background-color: aquamarine;
+     border: none;
+     border-radius: 99px;
+     color: white;
 }
 #aside{
     display:block;
     float: right;
-    background: purple;
-    height: 600px;
     width: 20%;
-}
-
-
-
-#pie{
-    background: yellow;
-    height: 400px;
-    width: 100%;
+    margin-right: 30px;
 }

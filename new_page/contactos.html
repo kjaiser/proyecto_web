@@ -7,7 +7,7 @@
     <title>Document</title>
 
     <!-- Estilos CSS -->
-    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/contactos.css">
     <link rel="stylesheet" href="css/cabeza-pie.css">
 
     <!-- jQuery -->
@@ -33,7 +33,7 @@
         <nav id="nav_bar">
             <ul>
                 <li class="boton_nav"><a href="index.html">INICIO</a> </li>
-                <li class="boton_nav"><a href="contactos.html">CONTACTANOS</a></li>
+                <li class="boton_nav"><a href="cursos.html">CONTACTANOS</a></li>
                 <li class="boton_nav"><a href="cursos.html">CURSOS</a> </li>
                 <li class="boton_nav"><a href="index.html">NOVEDADES</a> </li>  
 
@@ -46,42 +46,40 @@
         </nav>
         <div class="clearfix"></div>
         <section id="contenido">
-            <div id="cursos">
-                <div id="curso1">
-                    <img src="img/curso1.jpg" alt="">
-                    <div id="description1">
-                        <article class="articulo">
-                            <h2>curso1</h2>
-                            <span>aprende todo sobre el curso1</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem illo iure dolorum facilis laudantium ipsum. Inventore, dolor amet. Maiores soluta saepe vero. Recusandae, animi! Iste voluptatem ipsam nostrum beatae quam.</p>
-                        </article>
-                        <input class="boton" type="submit" value="buy">
-                        <input class="boton" type="submit" value="try">
-                        <input class="boton" type="submit" value="share">
+            <div id="box">
+                <!-- Cargar formulario -->
+                <h2>Contacto</h2>
 
-                    </div>
-                </div>
+                <form action="" method="POST" id="form_contact">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" data-validation="alphanumeric" />
 
-                <div id="curso2">
-                    <img src="img/curso1.jpg" alt="">
-                    <div id="description2">
-                        <article class="articulo">
-                            <h2>curso2</h2>
-                            <span>aprende todo sobre el curso2</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem illo iure dolorum facilis laudantium ipsum. Inventore, dolor amet. Maiores soluta saepe vero. Recusandae, animi! Iste voluptatem ipsam nostrum beatae quam.</p>
-                        </article>
-                        <input class="boton" type="submit" value="buy">
-                        <input class="boton" type="submit" value="try">
-                        <input class="boton" type="submit" value="share">
+                    <label for="surname">Apellidos</label>
+                    <input type="text" name="surname" data-validation="alphanumeric" />
 
-                    </div>
-                    
-                </div>
+                    <label>Email</label>
+                    <input type="email" name="email" data-validation="email"/>
+
+                    <label for="sex">Sexo</label>
+                    <select name="sex" data-validation="required">
+                        <option value="men">Hombre</option>
+                        <option value="woman">Mujer</option>
+                    </select>
+
+                    <label for="date">Fecha de nacimiendo</label>
+                    <input type="text" name="date" data-validation="date" data-validation-format="dd-mm-yyyy"/>
+
+                    <label for="years">Edad</label>
+                    <input type="number" name="years" data-validation="number"/>
+
+                    <input type="submit" value="Enviar"/>
+                </form>
+
             </div>
             
             
             <aside id="aside">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor inventore explicabo minima suscipit temporibus ullam doloremque omnis velit exercitationem illo odit voluptatem eaque ipsam saepe culpa facere perferendis, libero consequatur?</p>
+                <!-- <p> ipsum dolor, sit amet consectetur adipisicing elit. Dolor inventore explicabo minima suscipit temporibus ullam doloremque omnis velit exercitationem illo odit voluptatem eaque ipsam saepe culpa facere perferendis, libero consequatur?</p> -->
             </aside>
         <!-- Para evitar el desorden generado por float -->
         <div class="clearfix"></div>

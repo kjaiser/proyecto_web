@@ -5,7 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="css/stylez1.css">
+    <link rel="stylesheet" href="css/cabeza-pie.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Slider --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Moment -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/es.js"></script>
+
     <script src="js/script_1.js"></script>
 </head>
 <body>
@@ -14,12 +27,19 @@
     </header>
     <nav id="nav_bar">
         <ul>
-            <li>INICIO</li>
-            <li>CONTACTANOS</li>
-            <li>CURSOS</li>
-            <li>NOVEDADES</li>
+            <li class="boton_nav"><a href="index.html">INICIO</a> </li>
+            <li class="boton_nav"><a href="contactos.html">CONTACTANOS</a></li>
+            <li class="boton_nav"><a href="cursos.html">CURSOS</a> </li>
+            <li class="boton_nav"><a href="index.html">NOVEDADES</a> </li>  
+
         </ul>
+        <div id="buscador">
+            <input id="buscando" name="buscando" type="text" value="buscar..." > 
+            <label for="buscando">buscar curso</label>
+        </div>
+        
     </nav>
+    <div class="clearfix"></div>
     <main>
         <section id="seccion1">
             <img  src="/new_page/img/fondo2.jpg" alt="">

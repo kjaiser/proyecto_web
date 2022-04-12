@@ -2,8 +2,9 @@
     margin: 0px;
 }
 body{
-    border: solid red 2px;
+    /* border: solid red 2px; */
     margin-left: 250px;
+    background: #2FA4FF;
     margin-right: 250px;
 }
 #encabezado{
@@ -43,7 +44,12 @@ body{
     /* height: 100%; */
     display: inline-block;
     padding: 10px;
+
+a{
+    text-decoration: none;
+    color: white;
 }
+
 main{
     background-color: rgb(243, 239, 0);
     width: auto;
