@@ -93,7 +93,9 @@ main{
 }
 figure{
     margin: 0px;
-    margin-left: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
     background-color: blueviolet;
     width: 34%;
     height: 300px;
