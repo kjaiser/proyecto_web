@@ -1,0 +1,88 @@
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+#contenedor1{
+    margin: 50px;
+    display: block;
+    float: left;
+    border: dashed 2px black;
+    background-color: #ddd;
+    width: 400px;
+    height: 400px;
+}
+
+#cuadrado{
+    margin: 50px;
+    display: block;
+    float: left;
+    width: 80px; 
+    height: 80px; 
+    border: 3px solid #555;
+    background: #428bca;
+    cursor: pointer;
+
+}
+
+#circulo {
+    margin: 50px;
+    display: block;
+    float: right;
+    border: 3px solid #555;
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    cursor: pointer;
+
+}
+
+#rectangulo {
+    margin: 50px;
+    display: block;
+    float: left;
+    width: 100px; 
+    height: 60px; 
+    border: 3px solid #555;
+    background: #428bca;
+    cursor: pointer;
+
+}
+
+#rombo {
+    margin: 50px;
+    display: block;
+    float: right;
+    width: 80px; 
+    height: 80px; 
+    border: 3px solid #555; 
+    background: #428bca;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    cursor: pointer;
+
+}
+
+#flecha{
+    margin-top: 250px;
+    display: block;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contenedor2{
+    margin: 50px;
+    display: block;
+    float: left;
+    border: dashed 2px black;
+    background-color: #ddd;
+    width: 400px;
+    height: 400px;
+}

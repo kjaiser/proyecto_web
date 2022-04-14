@@ -9,6 +9,8 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/contactos.css">
     <link rel="stylesheet" href="css/cabeza-pie.css">
+    <link rel="stylesheet" href="css/novedades.css">
+
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -22,7 +24,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/es.js"></script>
 
     <!-- Mis Scripts -->
+    <script src="js/jquery-ui/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/script_1.js"></script>
+    <script type="text/javascript" src="js/f_dragg.js"></script>
 </head>
 <body>
     
@@ -46,46 +50,27 @@
         </nav>
         <div class="clearfix"></div>
         <section id="contenido">
-            <div id="box">
-                <!-- Cargar formulario -->
-                <h2>Contacto</h2>
+           
+            <h1>ARRASTRA LA FIGURA QUE INDIQUE DE IZQUIERA A DERECHA</h1>
+            <div id="contenedor1">
+                <div class="movil" id="cuadrado"></div>
+                <div class="movil" id="circulo"></div>
+                <div class="clearfix"></div>
 
-                <form action="" method="POST" id="form_contact">
-                    <label for="name">Nombre</label>
-                    <input type="text" name="name" data-validation="alphanumeric" />
+                <div class="movil" id="rectangulo"></div>
+                <div class="movil" id="rombo"></div>
+                <div class="clearfix"></div>
 
-                    <label for="surname">Apellidos</label>
-                    <input type="text" name="surname" data-validation="alphanumeric" />
-
-                    <label>Email</label>
-                    <input type="email" name="email" data-validation="email"/>
-
-                    <label for="sex">Sexo</label>
-                    <select name="sex" data-validation="required">
-                        <option value="men">Hombre</option>
-                        <option value="woman">Mujer</option>
-                    </select>
-
-                    <label for="date">Fecha de nacimiendo</label>
-                    <input type="text" name="date" data-validation="date" data-validation-format="dd-mm-yyyy"/>
-
-                    <label for="years">Edad</label>
-                    <input type="number" name="years" data-validation="number"/>
-
-                    <input type="submit" value="Enviar"/>
-                </form>
-
+                
             </div>
+            <div id="flecha">
+                <!-- <img src="img/743c13d03670e6fefda8ad97ff0f8797_w200.gif" alt=""> -->
+            </div>
+            <div id="contenedor2" class="box"></div>
             
-            
-            <aside id="aside">
-                <!-- <p> ipsum dolor, sit amet consectetur adipisicing elit. Dolor inventore explicabo minima suscipit temporibus ullam doloremque omnis velit exercitationem illo odit voluptatem eaque ipsam saepe culpa facere perferendis, libero consequatur?</p> -->
-            </aside>
-        <!-- Para evitar el desorden generado por float -->
-        <div class="clearfix"></div>
-        <!-- con esto se soluciona -->
+            <div class="clearfix"></div>
+            <br>
 
-        </section>
         <div id="info">
             <ul id="datos">
                 <li>facebook</li>
